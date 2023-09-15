@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import axios from 'axios';
 import { TextField, Button, Container, Typography,Card, CardContent ,CssBaseline } from '@mui/material';
 import { UserAuth } from '../context/AuthContext';
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
